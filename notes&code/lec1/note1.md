@@ -41,4 +41,16 @@ int main(){
     return 0;
 }
 ```
-- **
+**`cin`可以直接读取空格分隔的字符串（不读空格）**
+```C++
+#include<iostream>
+using namespace std;
+int main(){
+    char s1[10],s2[10];
+    cin>>s1>>s2;
+    cout<<s1<<s2<<endl;
+    return 0;
+}
+```
+`cin.get(char* s1,int N,结束符)`:一次连续读入多个（包括空格字符），直到读满N-1个或遇到`结束符`，默认`"\n"`,不读也不存结束符
+`cin.getline(char* s2,int N,结束符)`：会读入结束符但不存储
