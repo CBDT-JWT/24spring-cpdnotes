@@ -3,3 +3,4 @@
 **作业题目版权归属清华大学电子工程系《计算机程序设计基础（2）》教研组所有。**
 **严禁将本repo用于作业抄袭等学术不端行为**
 本人不对本repo中作业答案的时效性和正确性做出任何承诺。如果因为照搬我的代码导致获得低分，本人概不负责。
+*.pdf & .docx versions of files are offered to make the teacher happy* 

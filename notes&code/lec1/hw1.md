@@ -1,6 +1,9 @@
 # 程设作业1
+
 *江玮陶 清华大学电子工程系*
+
 ## P1
+
 用C++打印杨辉三角，直至第十行，格式为
  
 1
@@ -10,7 +13,9 @@
 1   3   3   1
  
 ……
+
 **Soulution**
+
 ```C++
 #include <iostream>
 using namespace std;
@@ -31,9 +36,13 @@ int main(){
     return 0;
 }
 ```
+
 ## P2
+
 用C＋＋编程实现如下三维动态数组x：动态数组大小为n×n×n，x[i][j][k] = i*j/(k+1)，输出该三维数组各个元素之和，取n=5,10,15
+
 **Soulution**
+
 ```C++
 #include<iostream>
 using namespace std;
@@ -60,10 +69,12 @@ int main(){
     return 0;
 }
 ```
+
 # 选做题：
  
 ## P1
 编写一个 C++ 程序，实现一个函数 swap0()，该函数接受两个参数，一个是整型指针，一个是整型引用。函数的功能是将整型指针指向的值与整型引用的值进行交换。
+
 **Soulution**
 ```C++
 void swap0(int *pa,int &b){
@@ -73,8 +84,10 @@ void swap0(int *pa,int &b){
     return ;
 }
 ```
+
 ## P2
 利用‘*’符号，使用格式控制符，在控制台组成一个“龙”字图样（不需要过于精确）
+
 **Solution**
 ```C++
 #include<iostream>
