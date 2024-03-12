@@ -25,7 +25,17 @@
 
 **（1）** 
 
-*教材上的代码不能通过编译,已经提交答疑信息*
+输出为
+```
+Constructor Called! Address = 0x0x61fdec
+Copy Constructor Called! Address = 0x0x61fe04
+Copy Constructor Called! Address = 0x0x61fdf8
+Destructor Called! Address = 0x0x61fdf8
+Destructor Called! Address = 0x0x61fe04
+Destructor Called! Address = 0x0x61fdec
+```
+调用构造函数一次,在构造`Date today`时调用;调用复制构造函数两次,在传递today进入`func()`时和传出Date(A)时候调用;调用析构函数三次,顺序为上述构造函数调用顺序的逆序.
+
 
 **（2）**
 
